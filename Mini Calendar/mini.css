@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    background-color: #d9d9d9;
+    color: #ffffff;
+}
+/* header */
+
+
+
+
+/* calendario */
+ .calendar-container {
+    background-color: #5c6b73;
+    width: 520px;
+    height: 360px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 12px 20px #bfc0c0;
+    overflow: hidden;
+}
+
+.month-name {
+    margin: 0;
+    background-color: #2d3142;
+    padding: 10px;
+}
+
+.day-name {
+    color: #bfc0c0;
+    margin: 0;
+    font-size: 26px;
+    padding: 15px 0 0 0 ;
+}
+
+.day-number {
+    margin: 0;
+    font-size: 80px;
+    padding: 30px 0 0 0 ;
+}
+.year {
+    color: #bfc0c0;
+    margin: 0;
+    font-size: 20px;
+    padding: 50px 0 0 0 ;
+}
+
+/* tempo */
+
+ .time-container {
+    background-color: #5c6b73;
+    width: 320px;
+    height: 140px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 12px 20px #bfc0c0;
+    overflow: hidden;
+    margin-left: 200px;
+}
+
+.clock {
+    margin: 0;
+    background-color: #2d3142;
+    padding: 10px;
+    font-size: 26px;
+}
+
+.time {
+    margin: 0;
+    padding-top: 10px;
+}   
+ 
+
